@@ -1,0 +1,27 @@
+.input-form{
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    position: relative;
+}
+
+.input-form input{
+    width: 100%;
+    outline: none;
+    border: solid 1px rgb(237, 21, 21   );
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+
+.input-form input:focus{
+    border: solid 1px rgb(21, 28, 237);
+}
+
+.input-form i{
+    position: absolute;
+    top: 5px;
+    color: rgb(237, 21, 21   );
+}
